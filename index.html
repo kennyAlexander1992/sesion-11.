@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>FORMULARIO CON CONDICIONALES</h2>
+
+        <div class="box">
+            <label for="grado">1.Verificacion de Condiciones</label><br>
+            <input type="number" id="grado" placeholder="Calificacion(0-100)">
+            <button onclick="verificarCalificacion()">Verificar</button>
+            <div id="gradoSalida" class="mostrar"></div>
+        </div>
+
+        <div class="box">
+            <label for="parlmpar">2. Numero Par o Impar</label><br>
+            <input type="number" id="parlmpar" placeholder="ingresa un numero">
+            <button onclick="determinarParidad()">Verificar</button>
+            <div id="parlmparSalida" class="mostrar"></div>
+        </div>
+
+        <div class="box">
+            <label for="descuento">3. Evalucacion de Descuentos</label><br>
+            <input type="number" id="descuento" placeholder="Valorwor de la compra">
+            <button onclick="evaluarDescuento()">Calcula</button>
+            <div id="descuentoSalida" class="mostrar"></div>
+        </div>
+
+        <div class="box">
+            <label for="adivinar">4. juego de Adivinanza</label><br>
+            <input type="number" id="adivinar" placeholder="Adivina un numero(1-10)">
+            <button onclick="jugarAdivinanza()">intenta</button>
+            <div id="adivinarSalida" class="mostrar"></div>
+        </div>
+    </div>
+</body>
+
+</html>
